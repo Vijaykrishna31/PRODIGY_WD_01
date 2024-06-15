@@ -45,7 +45,7 @@ const Gallery = () => {
         },
     ];
 
-    const renderSlides = await imageData.map((image) => (
+    const renderSlides = imageData.map((image) => (
         <div key={image.alt}>
             <img src={image.url} alt={image.alt} />
         </div>
